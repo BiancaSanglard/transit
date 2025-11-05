@@ -1,0 +1,289 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #555555;
+    background-color: #eeeeee;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5 {
+    color: #333333;
+    margin: 0 0 15px 0;
+    font-weight: 500; 
+}
+
+p {
+    margin: 0 0 15px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #3c94d0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    display: block; 
+}
+
+.conteudo {
+    max-width: 85%; 
+    margin: 0 auto; 
+    padding: 0 20px; 
+}
+
+.botao-cadastro {
+    display: inline-block;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 12px 28px;
+    border-radius: 20px;
+    font-weight: 500;
+}
+
+.botao-iniciar {
+    display: inline-block;
+    background-color: #0abcdb;
+    color: #ffffff;
+    padding: 12px 28px;
+    border-radius: 50px;
+    font-weight: 500;
+}
+
+#cabecalho {
+    background: #2b2f3a;
+    color: #ffffff;
+    padding: 15px 0; 
+}
+
+#logo {
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    padding-top: 8px; 
+}
+
+.botao-cadastro {
+    float: right;
+    margin-right: 0%;
+    padding: 8px 18px;
+    font-size: 14px;
+    margin-top: 5px; 
+    
+}
+#menu {
+    float: right;
+
+}
+
+#menu li {
+    float: left; 
+    margin-left: 25px;
+    padding-top: 12px; 
+}
+
+#menu a {
+    color: #ffffff;
+    font-weight: 300; 
+}
+
+#banner {
+    background-image: linear-gradient(rgba(40, 45, 50, 0.85), rgba(40, 45, 50, 0.85)), url('images/bokeh_car_lights_bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    text-align: center;
+    padding: 0px 0px 60px 0px;
+}
+
+#banner h1 {
+    padding-top: 40px;
+    font-size: 48px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+#banner p {
+    font-size: 18px;
+    font-weight: 300; 
+    margin-bottom: 30px;
+}
+
+.titulo-secao {
+    text-align: center;
+    padding: 60px 0 40px 0; 
+}
+
+.titulo-secao h2 {
+    font-size: 34px;
+    font-weight: 300; 
+}
+
+.titulo-secao p {
+    font-size: 18px;
+    color: #777777;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#servicos {
+    padding-bottom: 60px; 
+    padding-left: 5%;
+}
+
+.coluna-servico {
+    float: left;
+    width: 30%;
+    text-align: center;
+    margin: 0px 10px 0px 10px; 
+    border: 1px solid rgb(202, 202, 202);
+    padding-top: 10px;
+    background-color: white;
+}
+
+.coluna-servico h3 {
+    margin-top: 20px; 
+    font-size: 20px;
+    font-weight: 500;
+    color: #777777;
+    font-weight: bold;
+}
+
+.coluna-servico p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #777777;
+}
+
+
+.icone {
+    width: 80px;
+    height: 80px;
+    line-height: 80px; 
+    border-radius: 50%;
+    margin: 0 auto; 
+    font-size: 30px;
+}
+.icone-azul { background:#3c94d0 ; color: #ffffff; }
+.icone-verde { background:#76a04a ; color: #ffffff; }
+.icone-vermelho { background:#d25b81; color:  #ffffff; }
+
+#equipe {
+    background: #ffffff; 
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.membro-equipe {
+    margin: 30px 0px 30px 0px ;
+    float: left;
+    width: 25%;
+}
+
+.membro-equipe img {
+    float: left;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin: 0 auto 15px auto; 
+}
+
+.membro-equipe h4 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.membro-equipe p {
+    color: #888888;
+    font-size: 15px;
+}
+
+.descricao-equipe {
+    max-width: 700px;
+    margin: 30px auto;
+    color: #777777;
+}
+
+#rodape {
+    background-color: #2b2f3a; 
+    color: #888888;
+    padding: 60px 0 0 0; 
+}
+
+.coluna-rodape {
+    float: left;
+    width: 25%;
+    padding: 0 20px; 
+}
+
+.coluna-rodape h5 {
+    color: #ffffff; 
+    font-size: 16px;
+    font-weight: bold; 
+    margin-top: 0;
+    margin-bottom: 25px; 
+}
+
+.coluna-rodape ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.coluna-rodape li {
+    line-height: 1.8; 
+}
+
+.coluna-rodape a {
+    color: #888888; 
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.rodape-final {
+    border-top: 1px solid #444444; 
+    margin-top: 60px; 
+    padding: 30px 0; 
+    font-size: 14px;
+}
+
+.copyright {
+    float: left;
+    padding-top: 5px; 
+}
+
+.redes-sociais {
+    float: right;
+}
+
+.icone-social {
+    display: inline-block; 
+    width: 32px;
+    height: 32px;
+    border-radius: 50%; 
+    color: #ffffff; 
+    text-align: center; 
+    line-height: 32px; 
+    margin-left: 8px; 
+    font-size: 16px;
+}
+
+.icone-social.facebook { background-color: #3b5998; }
+.icone-social.twitter  { background-color: #00aced; }
+.icone-social.google   { background-color: #dd4b39; }
+.icone-social.linkedin { background-color: #007bb6; }
